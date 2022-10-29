@@ -20,7 +20,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The goal of this project is to enable menu scraping for a client. The required data to scrape includes restaurant name and location (district & coordinates), meal types and individual meal names, their prices, calories, descriptions and images.
+The goal of this project is to enable menu scraping for a client on ``hungerstation.com``. The required data to scrape includes restaurant name and location (district & coordinates), meal types and individual meal names, their prices, calories, descriptions and images.
 
 Specifically, the following procedure must be performed to scrape a website:
 - Define a Golang struct with necessary data components.
