@@ -56,4 +56,4 @@ To run this code, use the following command on your terminal:
 ``` sh
     go run scraper-sa.go
 ```
-The processed files will be saved under ``./data`` folder in your current working directory.
+The processed files will be saved under ``./data`` folder in your current working directory. Caching is enabled to make sure progress is not lost for each program restart.
