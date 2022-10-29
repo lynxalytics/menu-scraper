@@ -56,4 +56,10 @@ To run this code, use the following command on your terminal:
 ``` sh
     go run scraper-sa.go
 ```
-The processed files will be saved under ``./data`` folder in your current working directory. Caching is enabled to make sure progress is not lost for each program restart.
+To get the data into a tabular CSV format, run this to save the output to a `consolidated_output.CSV` in the ``data`` directory:
+
+``` sh
+    python3 processor.py
+```
+
+The processed files will be saved under ``data`` folder in your current working directory. Caching is enabled to make sure progress is not lost for each program restart.
