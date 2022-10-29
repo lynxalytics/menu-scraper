@@ -62,4 +62,8 @@ To get the data into a tabular CSV format, run this to save the output to a `con
     python3 processor.py
 ```
 
-The processed files will be saved under ``data`` folder in your current working directory. Caching is enabled to make sure progress is not lost for each program restart.
+The processed files will be saved under ``data`` folder in your current working directory. Caching is enabled to make sure progress is not lost for each program restart with ``colly.CacheDir("./cache")``.
+
+Here is a sample of the processed CSV file for this program:
+
+<img src="sample.jpg" alt="sample data" width="300"/>
