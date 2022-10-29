@@ -66,4 +66,4 @@ The processed files will be saved under ``data`` folder in your current working 
 
 Here is a sample of the processed CSV file for this program:
 
-<img src="sample.jpg" alt="sample data" width="300"/>
+<img src="sample.jpg" alt="sample data" width="1000"/>
